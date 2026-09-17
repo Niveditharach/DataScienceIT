@@ -1,0 +1,5 @@
+# PYTHON COMMANDS
+
+# PYTHON VERSION
+python3 --version
+
