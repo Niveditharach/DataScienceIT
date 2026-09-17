@@ -1,0 +1,44 @@
+# GIT COMMANDS
+
+# GIT INITIALIZE LOCAL REPO
+git init 
+
+# SET GLOBAL VALUES
+git config --global user.name "niveditha"
+git config --global user.email "rachamallaniveditha.rn@gmail.com"
+
+# CREATE NEW BRANCH
+git switch master (branch_name)
+git pull origin master
+git switch -c feature (branch_name)
+
+# CHECK CURRENT BRANCH
+git branch
+
+# SWITCH BRANCH
+git switch master (branch_name)
+
+# GET LATEST CHANGES FROM MASTER
+git pull origin master
+
+# PUSH NEW BRANCH TO GITHUB
+git push -u origin feature
+
+# CHECK CHANGED FILES
+git status
+
+# ADD ALL CHANGED FILES
+git add .
+
+# COMMIT CHANGES
+git commit -m "your commit message"
+
+# PUSH CHANGES
+git push
+
+# SEE COMMIT HISTORY
+git log 
+
+# SEE REMOTE REPOSITORIES
+git remote -v
+
